@@ -28,8 +28,6 @@ namespace Consumer
                     Thread.Sleep(60*1000);
                     Console.WriteLine("sleeping");
                 }
-                //Console.WriteLine("Press [enter] to exit the Consumer ...");
-                //Console.ReadLine();
             }
         }
     }

@@ -1,6 +1,5 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 as build
-ARG BUILD_CONFIGURATION=Debug
-ENV ASPNETCORE_ENVIRONMENT=Development
+ARG BUILD_CONFIGURATION=Release
 
 WORKDIR /src
 
